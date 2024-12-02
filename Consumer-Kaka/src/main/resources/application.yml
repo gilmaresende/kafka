@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Consumer-Kaka
+
+server:
+  port: 8080
+
+topicos:
+  pagamento:
+    request:
+      topic: "pagamento.request.topic.v1"
